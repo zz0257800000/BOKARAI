@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fefff8;
+}
+
+.page {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 30pt;
+}
+
+.x {
+  border-radius: 20px;
+  padding: 0.5rem;
+  transition: all 0.5s ease;
+}
+.x:hover {
+  background-color: rgba(118, 118, 117, 0.5);
+}
+
+a {
+  text-decoration: none;
+  font-size: 20pt;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0px solid black;
+  height: 15vh;
+  position: relative;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  box-shadow: 0px 10px 6px 0px #777;
+}
+.header .p1 {
+  height: 100px;
+  width: 100px;
+  -o-object-position: 0rem 0rem;
+     object-position: 0rem 0rem;
+}
+
+.second {
+  display: flex;
+  margin: 30px;
+}
+.second .left {
+  height: 90vh;
+  width: 200vw;
+  border: 0px solid black;
+}
+.second .right {
+  margin: 50px;
+  height: 80vh;
+  flex-direction: column;
+  border: 0px solid black;
+}
+.second .right .u {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30pt;
+}
+.second .right .seeMoreArea {
+  display: flex;
+  line-height: 3rem;
+  transition: all 0.5s ease;
+}
+.second .right .seeMoreArea:hover a {
+  color: rgba(250, 86, 86, 0.8);
+  scale: 1.2;
+}
+.second .right .seeMoreArea:hover a::after {
+  border-bottom-color: rgba(250, 86, 86, 0.8);
+}/*# sourceMappingURL=style.css.map */
