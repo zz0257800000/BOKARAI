@@ -109,10 +109,22 @@ background-color: rgba(118, 118, 117, 0.5);
 }
 .secondContent{
 display: flex;
-border: 1px solid black;
-width: 100vw;
-height: 100vh;
-
+border: 0px solid black;
+width: 80vw;
+height: 300vh;
+position: relative;
+left: 10%;
+flex-wrap: wrap;
+justify-content: center;
+.food1{
+    border: 0px solid black;
+    width: 36vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: column;
+}
 
 }}
 
