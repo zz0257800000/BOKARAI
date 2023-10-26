@@ -109,43 +109,36 @@ justify-content: center;
 
     }
 .secondContent{
-display: flex;
+position: relative;
+left: 20%;
 border: 0px solid black;
-width: 95vw;
-justify-content: space-around;
-.secondleft{
-height: 100%;
-width: 40vw;
-border: 0px solid black;
+height: 100vh;
+width: 60vw;
+.textinput{
+    width: 59vw;
+
+
 }
-.secondright{
-margin: 10PX;
-height: 80vh;
-width: 50vw;
-flex-direction: column;
-border: 0px solid black;
-.seeMoreArea {
-display: flex;
-line-height: 3rem;
-transition: all 0.5s ease;
-a{
-    border-radius: 10px;
-    padding: 5px;
-    transition: all 0.5s ease; 
-    text-decoration: none;
-    color: black;
-    &:hover {
-    color: red;
-    background-color: rgba(118, 118, 117, 0.5);
-    }
+.ContactButton{
+    border: 0px solid black;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    position: relative;
+    left: 39%;
+    &:hover{
+        background-color: red;
     }
 
-}}
+}
+
 }}
 .footer{
     height: 60vh;
     width: 100vw;
-    border: 1px solid black;
+    border: 0px solid black;
     background-image: url("./../picture/9.jpg");
     z-index: -2;
     .footerHead{
