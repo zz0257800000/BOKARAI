@@ -80,7 +80,6 @@ body {
   justify-content: center;
   display: flex;
   position: relative;
-  left: 60%;
 }
 .second .secondtitle2 {
   justify-content: space-between;
@@ -284,6 +283,8 @@ body {
   .second .secondtitle1 {
     justify-content: center;
     display: flex;
+    position: relative;
+    left: 60%;
   }
   .second .secondtitle2 {
     justify-content: space-between;
