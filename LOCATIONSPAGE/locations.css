@@ -120,6 +120,8 @@ body {
   border: 0px solid black;
   height: 39vh;
   width: 55vw;
+  position: relative;
+  right: 4%;
 }
 
 .footer {
