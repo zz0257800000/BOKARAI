@@ -262,6 +262,56 @@ body {
     color: red;
     background-color: rgba(118, 118, 117, 0.5);
   }
+  .second {
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+  }
+  .second .secondtitle1 {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    left: 60%;
+  }
+  .second .secondtitle2 {
+    justify-content: space-between;
+    display: flex;
+    width: 175vw;
+  }
+  .second .secondtitle2 a {
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: black;
+  }
+  .second .secondtitle2 a:hover {
+    color: red;
+    background-color: rgba(118, 118, 117, 0.5);
+  }
+  .second .secondContent {
+    position: relative;
+    left: 20%;
+    border: 0px solid black;
+    height: 100vh;
+    width: 60vw;
+  }
+  .second .secondContent .textinput {
+    width: 135vw;
+  }
+  .second .secondContent .ContactButton {
+    border: 0px solid black;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    width: 50vw;
+    height: 5vh;
+    position: relative;
+    left: 70%;
+  }
+  .second .secondContent .ContactButton:hover {
+    background-color: red;
+  }
   .footer {
     height: 60vh;
     width: 185vw;

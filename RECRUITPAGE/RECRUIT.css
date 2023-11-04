@@ -258,6 +258,56 @@ body {
     color: red;
     background-color: rgba(118, 118, 117, 0.5);
   }
+  .second {
+    display: flex;
+    margin: 30px;
+    height: 170vh;
+    flex-direction: column;
+    border: 0px solid black;
+  }
+  .second .secondtitle1 {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    left: 60%;
+  }
+  .second .secondtitle2 {
+    justify-content: space-between;
+    display: flex;
+    width: 175vw;
+  }
+  .second .secondtitle2 a {
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: black;
+  }
+  .second .secondtitle2 a:hover {
+    color: red;
+    background-color: rgba(118, 118, 117, 0.5);
+  }
+  .second .secondContent {
+    display: flex;
+    border: 0px solid black;
+    width: 172vw;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .second .secondContent .secondleft {
+    height: 100%;
+    width: 172vw;
+    border: 0px solid black;
+  }
+  .second .secondContent .secondright {
+    height: 100%;
+    width: 172vw;
+    border: 0px solid black;
+    margin: 10px;
+    position: relative;
+    top: 2%;
+    right: 2%;
+  }
   .footer {
     height: 60vh;
     width: 185vw;
