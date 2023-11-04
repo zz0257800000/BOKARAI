@@ -198,4 +198,148 @@ body {
   position: relative;
   left: 21%;
   font-size: 10pt;
+}
+
+@media (max-width: 500px) {
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0px solid black;
+    height: 20vh;
+    width: 185vw;
+    position: relative;
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    box-shadow: 0px 5px 6px 0px #777;
+    margin: 0;
+  }
+  .header .hedertitle {
+    font-size: 20pt;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    border: 0px solid black;
+    flex-direction: column;
+  }
+  .header .hedertitle a {
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: black;
+  }
+  .header .hedertitle a:hover {
+    color: red;
+  }
+  .header .hedertitle .hedertitlepicture {
+    height: 100px;
+    width: 100px;
+  }
+  .header .hederAlink {
+    font-size: 17pt;
+    display: flex;
+    width: 180px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+  }
+  .header .hederAlink a {
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: black;
+  }
+  .header .hederAlink a:hover {
+    color: red;
+    background-color: rgba(118, 118, 117, 0.5);
+  }
+  .footer {
+    height: 60vh;
+    width: 185vw;
+    border: 0px solid black;
+    background-image: url("./picture/9.jpg");
+    z-index: -2;
+  }
+  .footer .footerHead {
+    height: 10vh;
+    border: 0px solid black;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footerHead a {
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  .footer .footerHead a:hover {
+    color: red;
+    background-color: rgba(118, 118, 117, 0.5);
+  }
+  .footer .footerlefter {
+    height: 40vh;
+    width: 58vw;
+    border: 0px solid rgb(255, 255, 255);
+    position: relative;
+    top: 10%;
+    left: 2%;
+  }
+  .footer .footerlefter .footerwords {
+    border: 0px solid rgb(255, 255, 255);
+    height: 80px;
+    width: 305px;
+    color: rgb(221, 221, 221);
+    position: relative;
+    left: 23%;
+    top: 2%;
+  }
+  .footer .footerlefter .laderwords {
+    width: 60vw;
+    height: 30px;
+    position: relative;
+    top: 12%;
+    border: 0px solid rgb(255, 255, 255);
+    color: rgb(112, 67, 148);
+  }
+  .footer .footerRighter {
+    width: 35vw;
+    height: 30vh;
+    position: relative;
+    left: 62%;
+    border: 0px solid rgb(255, 255, 255);
+    bottom: 45%;
+  }
+  .footer .footerRighter .iconALink {
+    color: rgb(221, 221, 221);
+    border: 0px solid rgb(255, 255, 255);
+    font-size: 24pt;
+    display: flex;
+    justify-content: space-around;
+    width: 35vw;
+    position: relative;
+    left: 48%;
+    transition: all 0.5s ease;
+  }
+  .footer .footerRighter .rightwords {
+    color: rgb(221, 221, 221);
+    border: 0px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 43vw;
+    position: relative;
+    left: 21%;
+    font-size: 10pt;
+  }
 }/*# sourceMappingURL=about.css.map */

@@ -274,6 +274,74 @@ body {
     color: red;
     background-color: rgba(118, 118, 117, 0.5);
   }
+  .second {
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+  }
+  .second .secondtitle1 {
+    justify-content: center;
+    display: flex;
+  }
+  .second .secondtitle2 {
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    left: 130%;
+    border: 0px solid black;
+    width: 65vw;
+  }
+  .second .secondtitle2 a {
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: black;
+  }
+  .second .secondtitle2 a:hover {
+    color: red;
+    background-color: rgba(118, 118, 117, 0.5);
+  }
+  .second .secondContent {
+    display: flex;
+    border: 0px solid black;
+    width: 170vw;
+    padding: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .second .secondContent .secondleft {
+    height: 80vh;
+    width: 160vw;
+    border: 0px solid black;
+  }
+  .second .secondContent .secondleft .secondleftimg {
+    height: 80vh;
+    width: 150vw;
+  }
+  .second .secondContent .secondright {
+    margin: 10px;
+    height: 70vh;
+    width: 150vw;
+    flex-direction: column;
+    border: 0px solid black;
+  }
+  .second .secondContent .secondright .seeMoreArea {
+    display: flex;
+    line-height: 3rem;
+    transition: all 0.5s ease;
+  }
+  .second .secondContent .secondright .seeMoreArea a {
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: black;
+  }
+  .second .secondContent .secondright .seeMoreArea a:hover {
+    color: red;
+    background-color: rgba(118, 118, 117, 0.5);
+  }
   .footer {
     height: 60vh;
     width: 185vw;

@@ -304,6 +304,77 @@ margin: 10px;
         
         }
         }
+        .second{
+            display: flex;
+            margin: 30px;
+            flex-direction: column;
+            .secondtitle1{
+        justify-content: center;
+                display: flex;
+            }
+            .secondtitle2{
+                justify-content: space-between;
+                display: flex;
+                position: relative;
+               left:130% ; 
+               border: 0px solid black;
+               width: 65vw;
+
+                a{
+        
+                    border-radius: 10px;
+                    padding: 5px;
+                    transition: all 0.5s ease; 
+                    text-decoration: none;
+                    color: black;
+                    &:hover {
+                    color: red;
+                    background-color: rgba(118, 118, 117, 0.5);
+                    }
+                    }
+        
+            }
+        .secondContent{
+        display: flex;
+        border: 0px solid black;
+        width: 170vw;
+        padding: 20px;
+        justify-content: space-around;
+        flex-direction: column;
+        .secondleft{
+            height: 80vh;
+        width: 160vw;
+        border: 0px solid black;
+        .secondleftimg{
+            height: 80vh;
+        width: 150vw;
+        }
+        }
+        .secondright{
+        margin: 10px;
+        height: 70vh;
+        width: 150vw;
+        flex-direction: column;
+        border: 0px solid black;
+        .seeMoreArea {
+        display: flex;
+        line-height: 3rem;
+        transition: all 0.5s ease;
+        a{
+            border-radius: 10px;
+            padding: 5px;
+            transition: all 0.5s ease; 
+            text-decoration: none;
+            color: black;
+            &:hover {
+            color: red;
+            background-color: rgba(118, 118, 117, 0.5);
+            }
+            }
+        
+        }}
+        }
+        }
         .footer{
             height: 60vh;
             width: 185vw;
