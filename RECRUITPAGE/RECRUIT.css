@@ -262,7 +262,7 @@ body {
     height: 60vh;
     width: 185vw;
     border: 0px solid black;
-    background-image: url("./picture/9.jpg");
+    background-image: url("./../picture/9.jpg");
     z-index: -2;
   }
   .footer .footerHead {

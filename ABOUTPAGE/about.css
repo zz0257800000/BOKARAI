@@ -260,11 +260,61 @@ body {
     color: red;
     background-color: rgba(118, 118, 117, 0.5);
   }
+  .second {
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+  }
+  .second .secondtitle1 {
+    justify-content: center;
+    display: flex;
+    border: 0px solid black;
+    position: relative;
+    left: 60%;
+  }
+  .second .secondtitle2 {
+    justify-content: space-between;
+    display: flex;
+    width: 175vw;
+  }
+  .second .secondtitle2 a {
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: black;
+  }
+  .second .secondtitle2 a:hover {
+    color: red;
+    background-color: rgba(118, 118, 117, 0.5);
+  }
+  .second .secondContent {
+    display: flex;
+    border: 0px solid black;
+    width: 80vw;
+    height: 200vh;
+    position: relative;
+    left: 8%;
+  }
+  .second .secondContent .content1 {
+    align-items: center;
+    display: flex;
+    border: 0px solid black;
+    height: 150vh;
+    width: 150vw;
+    flex-direction: column;
+  }
+  .second .secondContent .content1 .secondwords {
+    height: 60vh;
+    margin: 15px;
+  }
   .footer {
     height: 60vh;
     width: 185vw;
     border: 0px solid black;
-    background-image: url("./picture/9.jpg");
+    position: relative;
+    top: 150%;
+    background-image: url("./../picture/9.jpg");
     z-index: -2;
   }
   .footer .footerHead {

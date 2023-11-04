@@ -293,7 +293,8 @@ margin: 10px;
             height: 60vh;
             width: 185vw;
             border: 0px solid black;
-            background-image: url("./picture/9.jpg");
+            
+            background-image: url("./../picture/9.jpg");
             z-index: -2;
             .footerHead{
                 height: 10vh;
@@ -324,6 +325,7 @@ margin: 10px;
         position: relative;
         top: 10%;
         left: 2%;
+        
         .footerwords{
             border: 0px solid rgb(255, 255, 255);
             height: 80px;
@@ -380,5 +382,4 @@ margin: 10px;
         }
         
         }
-        }
-}
+    }}
